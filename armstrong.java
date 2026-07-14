@@ -1,6 +1,17 @@
 import java.util.Scanner;
-public class Armstrong{
+public class armstrong{
     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a num");
+        int num = sc.nextInt();
+
+        if (isArmstrong(num)){
+            System.out.println(num+" is an Armstrong number");
+        }
+        else{
+System.out.println(num+" is not an Armstrong number");
+        }
+        sc.close();
 
     }
     public static boolean isArmstrong(int num){
