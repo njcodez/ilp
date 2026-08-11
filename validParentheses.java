@@ -1,7 +1,7 @@
 import java.util.Stack;
 import java.util.Scanner;
 
-public class validParenthesis {
+public class validParentheses {
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for (char c : s.toCharArray()) {
